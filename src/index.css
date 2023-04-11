@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background: #e4e4e4;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.text-heading {
+  font-size: 2rem;
+  color: #000;
+}
+.post-item {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+.product-image {
+  width: 200px;
+  height: 200px;
+  margin: 1rem;
+}
